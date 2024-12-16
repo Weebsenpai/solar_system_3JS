@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Clash';
+  src: url('/fonts/ClashDisplay-Variable.ttf');
+}
+
+body{
+  font-family: 'Clash';
+  overflow: hidden;
+  margin: 0px;
+}
+
+
+
+.mercury-color{
+  color: rgb(186, 178, 178) !important;
+}
+
+.venus-color{
+  color: rgb(237, 181, 109) !important;
+}
+
+.earth-color{
+  color: rgb(109, 174, 224) !important;
+}
+
+.mars-color{
+  color: rgb(224, 133, 101) !important;
+}
+
+.jupiter-color{
+  color: rgb(193, 159, 123) !important;
+}
+
+.saturn-color{
+  color: rgb(238, 209, 177) !important;
+}
+
+.uranus-color{
+  color: rgb(153, 195, 219) !important;
+}
+
+.neptune-color{
+  color: rgb(99, 149, 207) !important;
+}
+
+.sun-color{
+  color: rgb(255, 176, 96) !important;
+}
+
+#slider-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#slider {
+  display: flex;
+  overflow: hidden;
+  width: 90%;
+  max-width: 600px;
+  border: none;
+}
+
+.slide-btn{
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+}
+
+.card {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  color: white;
+}
+
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.visit-btn {
+  font-family: 'Clash';
+  margin-top: 10px;
+  background: none;
+  color: rgb(255, 116, 116);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  font-family: 'Clash';
+  margin-top: 10px;
+  background: none;
+  color: rgb(116, 208, 245);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
